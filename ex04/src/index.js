@@ -1,4 +1,3 @@
-
 // Create a monitorsListArray here
 var monitorsListArray = ['Apple', 'Peach', 'Berry'];
 // End of monitorsListArray array
@@ -13,5 +12,6 @@ function myMonitorsFunction(arr) {
         return monitorList;
     // Only change code above this line
 }
-console.log(myMonitorsFunction(monitorsListArray));   
+
+console.log(myMonitorsFunction(monitorsListArray));     // Change this line
 module.exports = myMonitorsFunction;
